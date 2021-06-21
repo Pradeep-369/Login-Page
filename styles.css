@@ -96,3 +96,13 @@ line-height:1.4;
 .btn:hover{
   background: #fff;
 }
+@media screen and (max-width: 600px){
+  body{
+background-image: url('https://images.unsplash.com/photo-1623525412477-a74d3f1f4e2b?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNDI4MTk4MQ&ixlib=rb-1.2.1&q=85');
+background-size: cover;
+    backgroun-repeat: no-repeat;
+    min-height: 100vh;
+    
+    
+  }
+}
