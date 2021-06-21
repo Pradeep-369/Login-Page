@@ -1,0 +1,98 @@
+
+  body{
+  box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+/* background-image: url('data:image/svg+xml,%3Csvg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M0 0h16v2h-6v6h6v8H8v-6H2v6H0V0zm4 4h2v2H4V4zm8 8h2v2h-2v-2zm-8 0h2v2H4v-2zm8-8h2v2h-2V4z" fill="%239C92AC" fill-opacity="0.4" fill-rule="evenodd"/%3E%3C/svg%3E'); */
+/* background: url('https://images.unsplash.com/photo-1622532832487-b18b9c7f23d3?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNDI0NzQxMg&ixlib=rb-1.2.1&q=85')  ; */
+background-image: url('https://images.unsplash.com/photo-1623670316347-3fd2711f0562?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyNDI0NzkyNw&ixlib=rb-1.2.1&q=85');
+    background-position: 0px 0px;
+    background-size:  cover;
+    background-repeat: no-repeat;
+}
+*{
+   box-sizing:border-box;
+  padding: 0;
+  margin: 0;
+  transition: all 0.4s;
+}
+.login{
+position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  width:300px;
+  height:  310px;
+  padding: 20px;
+  background: rgba(0,0,0,0.5);
+  border-radius:  20px;  box-shadow: 0 0 10px rgba(255,255,255,0.5);
+
+}
+/* .login:hover,.login:focus-within{
+  box-shadow: 0 0 10px rgba(255,255,255,0.5);
+} */
+.login h1{
+  text-align: center;
+  color: white;
+}
+input:not([type="submit"]){
+ outline:none;
+/* background: rgba(0,0,0,0.4); */
+  background: rgba(255,255,255,0.3);
+  padding;  9px 15px;
+  height: 40px;
+  width: 100%;
+  margin: 15px auto;
+  border-radius: 5px;
+  box-shadow: inset 0px 0px  10px rgba(0,0,0,0.5);
+}
+input:focus{
+border: none;
+outline: none;
+  
+  
+}
+input:valid:not([type="submit"]){
+  border-bottom: 4px solid lightgreen;
+}
+input:invalid{
+  border-bottom: 4px solid red;
+}
+input{
+  box-shadow: 0px 0px 4px rgba(0,0,0,0.4);
+  padding-left:  10px;
+  color: white;
+  box-shadow: 0 0 30px  rgba(255,255,255,0.7) inset;
+
+}
+.inputs a {
+  text-decoration: none;
+  color: #80DEEA;
+line-height:1.4;
+  padding: 10px;
+}
+.inputs a:last-child{
+  margin-left:  40px;
+}
+.inputs a:hover,.inputs a:active {
+  color: #F0F4C3;
+}
+::placeholder{
+  color:  #fefefe;
+  background: transparent;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.btn{
+  margin-top: 15px;
+  outline:none;
+  appearance:none;
+  padding:  0.5em 3em;
+  width: 100%;
+  border-radius: 10px;
+  cursor:  pointer;
+  color: black;
+}
+.btn:hover{
+  background: #fff;
+}
